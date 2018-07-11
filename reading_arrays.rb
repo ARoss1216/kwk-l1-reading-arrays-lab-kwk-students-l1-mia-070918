@@ -7,26 +7,29 @@ STUDENT_NAMES = [
   "Rihanna"
 ]
 
-def first_student_by_index
-  # Write a solution that returns the first student in the array student_names
+def first_student_by_index(arr)
+  return arr[0]
 end
 
-def fourth_student_by_index
-  # Write a solution that returns the first student in the array student_names
+def fourth_student_by_index(arr)
+  return arr[3]
 end
 
-def last_student_by_index
-  # Write a solution that returns the first student in the array student_names
+def last_student_by_index(arr)
+  return arr[5]
 end
 
-def first_student_by_method
-  # Write a solution that returns the first student using the built in .first method
+def first_student_by_method(arr)
+  return arr.first
+  
 end
 
-def last_student_by_method
-  # Write a solution that returns the first student using the built in .last method
+def last_student_by_method(arr)
+  return arr.last
 end
 
-def first_second_and_third_students
-  # Write a solution that returns the first, second and third students
+def first_second_and_third_students(arr)
+  return arr[0], arr[1], arr[2]
 end
+
+first_second_and_third_students(STUDENT_NAMES)
